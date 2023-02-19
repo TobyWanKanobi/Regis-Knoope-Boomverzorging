@@ -2,17 +2,17 @@
 
 ## Demo Project: Boomverzorgingsbedrijf
 
-#Installation Guide
+#### Installation Guide
 ```
 git clone https://github.com/TobyWanKanobi/Regis-Knoope-Boomverzorging.git
 npm install
 composer install
 ```
 
-##### Setup Database
+#### Setup Database
 Create MySQL database default = 'laravel'
 
-##### Configure Environment Variables
+#### Configure Environment Variables
 Copy the *.env-example* and rename it to *.env*
 Update the *.env* file with your database settings (host, port, db_user, db_password, db_name)
 
@@ -31,14 +31,14 @@ Visit your website at http://localhost:8000
 <p align="center"><a href="https://gulpjs.com/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Gulp.js_Logo.svg/175px-Gulp.js_Logo.svg.png?20180427053858" width="50"></a></p>
 
 
-#Functional Requirements
+# Functional Requirements
 - Als Klant wil ik een offerte kunnen aanvragen.
 - Als klant wil ik contact gegevens kunnen vinden.
 - Als beheerder wil ik kunnen inloggen met naam en wachtwoord.
 - Als beheerder wil ik offertes kunnen beheren (CRUD)
 - Als beheer wik ik gebruikers kunnen beheren (CRUD)
 
-#Features
+# Features
 - Pagination
 - Bootstrap Carousel
 - Bootstrap Toast
