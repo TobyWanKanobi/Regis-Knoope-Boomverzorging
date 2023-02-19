@@ -1,0 +1,66 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333;
+
+body {
+font: 100% $font-stack;
+color: $primary-color;
+}
+
+body div {
+    //background:#44F200;
+}
+
+.carousel-slideshow{
+  overflow:hidden;
+
+  .carousel-slideshow__image {
+    //height:400px;
+  }
+}
+
+.about {
+    border-bottom:solid 1px #000000;
+    padding-bottom: 10px;
+}
+
+.top-right {
+  //padding-top:50px;
+  //text-align:center;
+}
+
+#__contact-info {
+    //border-bottom:solid 1px #000000;
+    text-align:center;
+   
+}
+
+.contact{
+  margin-top:50px;
+    text-align:center;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+  
+    .footer__menu {
+      list-style-type: none;
+      margin:0;
+      padding:0;
+    }
+  
+    .footer__menu li {
+      padding-left:5px;
+      padding-right:5px;
+      display: inline-block;
+      border-left: solid 1px #000000;
+    }
+  
+    .footer__menu li a {
+    }
+  
+    .footer__copyright {
+      text-align: center;
+    }
+  }
+  
