@@ -2,7 +2,7 @@
    <div class="alert alert-danger print-error-msg" style="display:none">
       <ul></ul>
    </div>
-   <form action="/offers" method="POST">
+   <form action="/admin/offers" method="POST">
       @csrf
       @if ($errors->any())
       <div class="alert alert-danger">
